@@ -17,7 +17,7 @@ public class PunchBag : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Glove glove = other.GetComponent<Glove>();
-        displayOutput.text = $"Score: {Mathf.Floor(glove.Velocity.magnitude * 500)}";
+        displayOutput.text = $"Score: {Mathf.Clamp(Mathf.Floor(glove.Velocity.magnitude * 500),0,999)}";
     }
 
 
