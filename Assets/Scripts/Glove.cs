@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,15 @@ public class Glove : MonoBehaviour
     private Vector3 currentVelocity = Vector2.zero;
     private Vector3 lastPosition;
     public Vector3 Velocity { get => currentVelocity; }
+
+
+    public void SetHand(Transform hand, bool left)
+    {
+        transform.SetParent(hand);
+        transform.position = hand.position;
+        transform.localScale = new Vector3(1, 1 ,1);
+    }
+
 
     void Start()
     {
