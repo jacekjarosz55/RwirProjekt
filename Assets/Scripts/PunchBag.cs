@@ -33,7 +33,7 @@ public class PunchBag : MonoBehaviour
         if (!active) return;
         Glove glove = other.GetComponent<Glove>();
         score = Mathf.Floor(scoreFunction.Evaluate(glove.Velocity.magnitude/maxForce)*999);
-        Debug.Log(score);
+        Debug.Log($"Velocity: {glove.Velocity.magnitude}, Score: {score}");
         active = false;
     }
 

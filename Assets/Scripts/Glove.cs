@@ -15,7 +15,6 @@ public class Glove : MonoBehaviour
     {
         transform.SetParent(hand);
         transform.position = hand.position;
-        transform.localScale = new Vector3(1, 1 ,1);
     }
 
 
