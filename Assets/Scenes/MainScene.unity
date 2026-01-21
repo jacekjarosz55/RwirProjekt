@@ -2016,13 +2016,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.000000025320332
-      value: 0.5027523
-      inSlope: 0.71443564
-      outSlope: 0.71443564
+      time: 0.0009994253
+      value: 0.3456173
+      inSlope: 0.8705081
+      outSlope: 0.8705081
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.32384402
+      value: 0.6266561
+      inSlope: 1.1035174
+      outSlope: 1.1035174
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.6009744
@@ -2046,6 +2055,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   maxForce: 16
+  particlesPrefab: {fileID: 5252443292751872372, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
 --- !u!59 &1710492421
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3243,63 +3253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
---- !u!1001 &2251993639004231440
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.13614
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.27344
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.69048
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109177826841843280, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5252443292751872372, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
-      propertyPath: m_Name
-      value: HitParticles
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c436c0735e91b04658ca4df0f5d0ca9e, type: 3}
 --- !u!1001 &7864204081422400648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3398,4 +3351,3 @@ SceneRoots:
   - {fileID: 1349265397}
   - {fileID: 2025994108061063663}
   - {fileID: 41009543}
-  - {fileID: 2251993639004231440}
